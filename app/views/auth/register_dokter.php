@@ -18,7 +18,7 @@
 
         <form method="POST" action="index.php?action=register_dokter">
             <div class="field">
-                <label for="nama">Nama</label>
+                <label for="nama">Username</label>
                 <input type="text" id="nama" name="nama" maxlength="50" required autofocus value="<?= e($namaInput) ?>" placeholder="Contoh: dr. Ayu Lestari">
                 <div class="hint">Dipakai untuk login dan tampil sebagai nama dokter.</div>
             </div>

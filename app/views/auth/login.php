@@ -29,7 +29,7 @@ $pesan = [
 
         <form method="POST" action="index.php?action=login">
             <div class="field">
-                <label for="nama">Nama</label>
+                <label for="nama">Username</label>
                 <input type="text" id="nama" name="nama" required autofocus value="<?= e($namaInput) ?>">
             </div>
             <div class="field">
