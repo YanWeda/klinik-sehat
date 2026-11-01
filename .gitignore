@@ -1,0 +1,14 @@
+# Kredensial database lokal (buat dari koneksi.example.php)
+koneksi.php
+
+# File editor & sistem operasi
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Log & cadangan
+*.log
+*.bak
+*.zip
