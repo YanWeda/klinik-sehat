@@ -44,13 +44,19 @@ tiga peran akun (Admin, Dokter, User/Pasien) dengan tampilan dan hak akses yang 
    jika berbeda dari bawaan (`root`, tanpa password).
 4. **Buka di browser:** `http://localhost/klinik/`
 
-### Akun bawaan
+### Data & akun contoh
+
+`database/klinik.sql` sudah berisi **11 data contoh pada setiap tabel** (dokter, pasien, akun, antrian,
+konsultasi, dan pesan chat), jadi fitur pencarian dan pembagian halaman langsung bisa dicoba.
+Antrian contoh memakai tanggal hari saat database diimpor.
 
 | Peran | Nama | Password |
 |---|---|---|
 | Admin | `admin` | `admin123` |
+| Dokter | `dr.ayu`, `dr.made`, `dr.komang` | `dokter123` |
+| User (pasien) | `kadek`, `luhayu`, `putu`, `wayan`, `gede`, `komang`, `made` | `pasien123` |
 
-> **Ganti password admin** segera setelah login pertama (menu **Kelola User → Edit**).
+> Akun contoh hanya untuk demo. **Ganti password-nya** (menu **Kelola User → Edit**) bila aplikasi dipasang online.
 
 - **Pasien** — daftar sendiri lewat tombol *Pasien* di halaman login.
 - **Dokter** — daftar lewat tombol *Dokter* di halaman login dan masukkan **kode registrasi dokter**.
